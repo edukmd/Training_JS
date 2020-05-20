@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="number">
+            <p class="number" id="number"></p>  
+        </div>
+          
+        <div class="result">
+            <p id="resultado" class="resultado"></p>
+        </div>
+        <div>
+            <input type="button" value="7" onclick="sete()">
+            <input type="button" value="8" onclick="oito()">
+            <input type="button" value="9" onclick="nove()">
+            <input type="button" value="CE" onclick="apagar()">
+        </div>
+        <div>
+            <input type="button" value="4" onclick="quatro()">
+            <input type="button" value="5" onclick="cinco()">
+            <input type="button" value="6" onclick="seis()">
+            <input type="button" value="+" onclick="somar()">
+        </div>
+        <div>
+            <input type="button" value="1" onclick="um()">
+            <input type="button" value="2" onclick="dois()">
+            <input type="button" value="3" onclick="tres()">
+            <input type="button" value="-" onclick="menos()">
+        </div>
+        <div>
+            <input type="button" value="0" onclick="zero()">
+            <input type="button" value="," onclick="virgula()">
+            <input type="button" value="=" onclick="igual()">
+            <input type="button" value="/" onclick="dividido()">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+div.player1{
+    background-image: url(move.png);
+    background-position: 0px 0px; /* 64px*/
+    height: 64px; /* Visible height */
+    width: 64px; /* Visible width */
+    position: absolute;
+}
+div.projetil{
+    background-image: url(projetil.png);
+    background-position: 0px 0px; /* 64px*/
+    height: 153px; /* Visible height */
+    width: 153px; /* Visible width */
+    position: absolute;
+    filter: opacity(0%);
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

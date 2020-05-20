@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-radius Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Border-radius Previewer</h1>
+    <div class="radius" id="radius" onmousemove="position(event)" onmouseup="STOP_MOTION()">
+        <p class="box" id="caixa" ></p>
+        <p class="box2" id="caixa2" ></p>
+        <p class="LT" id="LT" onmousedown="LT_MOVE()"></p>
+        <p class="RT" id="RT" onmousedown="RT_MOVE()"></p>
+        <p class="LB" id="LB" onmousedown="LB_MOVE()"></p>
+        <p class="RB" id="RB" onmousedown="RB_MOVE()"></p>
+    </div>
+        
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
