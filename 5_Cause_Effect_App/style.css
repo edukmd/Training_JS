@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(76, 0, 130, 0.788);
+    color: white;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: rgb(44, 36, 44);
+    vertical-align: middle;
+    align-items: center;
+    color: white;
+}
+
+button{
+    border: 0px;
+    background: transparent;
+}
+div{
+    background-color: rgba(51, 255, 0, 0.767);
+}
+
+div.information{
+    width: 200px;
+    height: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    position: absolute;
+    margin: auto;
+    top: 70px;
+    left: 400px;
+    padding: 25px;
+    align-items: center;
+    background-color: rgba(51, 255, 0, 0.767);
+    vertical-align: middle;
+}
+div.top{
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    border-radius: 40px;
+}
+div.entradas{
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    margin: 20px;
+}
+p.entradas{
+    width: 100px;
+    padding: 10px;
+    margin-right: 20px;
+    align-content: space-between;
+}
+b{
+    color:rgb(44, 36, 36);
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
+}
+input[type=button]{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    align-content: center;
+}
+div.list-people{
+    width: 200px;
+    padding: 20px;
+    height: auto;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+}
