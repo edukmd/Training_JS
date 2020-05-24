@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of people</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>
+        <center>Listagem de Pessoas</center>
+    </h1>
+    <div>
+        <section class="grid grid-template-columns-1">
+            <div class="item">
+                <div class="list-people">
+                    <center><h2>Lista de pessoas</h2></center>
+                    <ul id="list-name" onclick="target(event)">
+                    </ul>
+                    <center><input type="button" value="Deletar" onclick="deletar()"></center>
+                </div>
+            </div>
+            <div class="item">
+                <div class="information">
+                    <div class="top"></div>
+                    <p id="nome_show"></p>
+                    <p id="idade_show"></p>
+                    <p id="cidade_show"></p>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="entradas">
+        <p class="entradas">Nome:</p>
+        <input type="text" name="nome-entrada" id="nome-entrada">
+        <p class="entradas">Idade:</p>
+        <input type="number" name="idade-entrada" id="idade-entrada">
+        <p class="entradas">Cidade:</p>
+        <input type="text" name="cidade-entrada" id="cidade-entrada">
+        <center><input type="button" value="Registrar" onclick="registro()"></center>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
